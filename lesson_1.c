@@ -1139,11 +1139,45 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
-// 44
+// 45
 
+int main() {
+  int width,height;
+  int border;
+  
+  scanf("%d %d", &width, &height);
+  border = width > height ? width + 8 : height + 8;
+  printf("%d", border);
+}
+// Sample Input:
+// 8 11
+// Sample Output:
+// 19
 
+////////////////////////////////////////////////////////////////////////////////////////////
 
+// 46
 
+int main(void)
+{
+    short type = 0;
+    double w, h;
+    double result;
+    int retInt = -1;
+
+    if(scanf("%hd %lf %lf", &type, &w, &h) != 3) {
+        printf("Input error.");
+        return 0;
+    } 
+    
+    type == 1 ? printf( "%.1f", w*h ) :
+    type == 2 ? printf( "%.1f", 2 * ( w + h ) ) : printf( "%d", -1 );
+}
+
+// Sample Input:
+// 1 0.5 1.2
+// Sample Output:
+// 0.6
 
 
 
