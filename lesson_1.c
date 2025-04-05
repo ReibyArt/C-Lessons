@@ -1141,14 +1141,14 @@
 
 // 45
 
-int main() {
-  int width,height;
-  int border;
+// int main() {
+//   int width,height;
+//   int border;
   
-  scanf("%d %d", &width, &height);
-  border = width > height ? width + 8 : height + 8;
-  printf("%d", border);
-}
+//   scanf("%d %d", &width, &height);
+//   border = width > height ? width + 8 : height + 8;
+//   printf("%d", border);
+// }
 // Sample Input:
 // 8 11
 // Sample Output:
@@ -1158,26 +1158,59 @@ int main() {
 
 // 46
 
-int main(void)
-{
-    short type = 0;
-    double w, h;
-    double result;
-    int retInt = -1;
+// int main(void)
+// {
+//     short type = 0;
+//     double w, h;
+//     double result;
+//     int retInt = -1;
 
-    if(scanf("%hd %lf %lf", &type, &w, &h) != 3) {
-        printf("Input error.");
-        return 0;
-    } 
+//     if(scanf("%hd %lf %lf", &type, &w, &h) != 3) {
+//         printf("Input error.");
+//         return 0;
+//     } 
     
-    type == 1 ? printf( "%.1f", w*h ) :
-    type == 2 ? printf( "%.1f", 2 * ( w + h ) ) : printf( "%d", -1 );
-}
+//     type == 1 ? printf( "%.1f", w*h ) :
+//     type == 2 ? printf( "%.1f", 2 * ( w + h ) ) : printf( "%d", -1 );
+// }
 
 // Sample Input:
 // 1 0.5 1.2
 // Sample Output:
 // 0.6
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+// 47
+
+// int main(void)
+// {
+//     int a, b, c;
+    
+//     scanf("%d%d%d", &a, &b, &c);
+    
+//     printf(a + b > c && b + c > a && a + c > b ? "yes" : "no");
+    
+//     return 0;
+// }
+
+
+// Стороны стеугольника
+
+// Sample Input:
+// 3 4 5
+// Sample Output:
+// yes
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+// 48
+
+
+
+
+
+
 
 
 
