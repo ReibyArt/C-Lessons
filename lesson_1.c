@@ -1209,15 +1209,15 @@
 // ПОВТОРЕНИЕ //
 
 // int main(void) {
-//   int a, b, h;
-//      double res;
+//    int a, b, h;
+//    double res;
      
-//      scanf("%d, %d, %d", &a, &b, &h);
+//	scanf("%d, %d, %d", &a, &b, &h);
      
-//      res = (((double)a + (double)b) / 2) * (double)h;
+//	res = (((double)a + (double)b) / 2) * (double)h;
      
-//      printf("%.1lf", res);
-    
+//	printf("%.1lf", res);
+//	printf("Hello!!!");
 //  }
 
 
@@ -1228,6 +1228,8 @@
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 // 49
+
+// 05/10/2025
 
 
 
