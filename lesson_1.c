@@ -1231,7 +1231,91 @@
 
 // 05/10/2025
 
+// int main(void) {
 
+  // int item; // Input
+
+  // printf("1. Learning C Language\n"
+  //        "2. Learning Java Script Language\n"
+  //        "3. Learning C# Language\n"
+  //        "4. Learning C++ Language\n"
+  //        "5. Learning Unreal Engine\n"
+  //        "6. Exit\n");
+
+  //   if(scanf("%d", &item) != 1) {
+  //     printf("Error input");
+  //     return 0;
+  //   }
+
+  //   switch (item)
+  //   {
+  //     case 1:
+  //       printf("1. Learning C Language\n");
+  //       break;
+  //     case 2:
+  //       printf("2. Learning Java Script Language\n");
+  //       break;
+  //     case 3:
+  //       printf("3. Learning C# Language\n");
+  //       break;
+  //     case 4:
+  //       printf("4. Learning C++ Language\n");
+  //       break;
+  //     case 5:
+  //       printf("5. Learning Unreal Engine\n");
+  //       break;
+  //     case 6:
+  //       printf("Exit\n");
+  //       break;
+  //     default:
+  //       break;
+  //   }
+  //   return 0;
+
+    // Return - полностью завершает работу функции и тд
+    // Break - завершает работу и переходит дальше
+
+
+    //////////////////////////////////////////////////////////
+
+    /// SWITCH 2 ///
+
+    // char item;
+    // printf("Please enter symbol: aA, bB or cC\n");
+
+    // if(scanf("%c", &item) != 1) {
+    //   printf("Error input");
+    //   return 0;
+    // }
+
+
+    // switch (item)
+    // {
+    //   case 'a':
+    //   case 'A':
+    //     printf("Symbol A\n");
+    //     printf("%d", item);
+    //     break;
+    //   case 'b':
+    //   case 'B':
+    //     printf("Symbol B\n");
+    //     printf("%d", item);
+    //     break;
+    //   case 'c':
+    //   case 'C':
+    //     printf("Symbol C\n");
+    //     printf("%d", item);
+    //     break;
+      
+    //   default:
+    //    printf("Incorrect symbol\n");
+    //     break;
+    // }
+// }
+
+int main(void) {
+  return 0;
+}
 
 
 
